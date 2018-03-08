@@ -1,0 +1,124 @@
+
+
+/*
+En el syle de una imagen: 
+
+background-image: 
+    linear-gradient(
+        to right bottom,
+        rgba(59, 31, 93, 0.9),
+        rgba(99, 60, 132, 0.9),
+        rgba(162, 95, 167, 0.9),
+        rgba(182, 114, 186, 0.9)    ),
+    url('/static/img/bg-index.jpg');
+
+---------------------
+    onmouseover="javascript:this.width=210" 
+    onmouseout="javascript:this.width=200"
+---------------------
+
+
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: deeppink;
+    font-family: Calibri, sans-seri-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+
+}
+
+p, h1, h2 {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.index-banner{
+    background-image:   linear-gradient(
+                            to right bottom,
+                            rgba(136, 136, 136, 0.9),
+                            rgba(180, 180, 180, 0.9),
+                            rgba(205, 205, 205, 0.9),
+                            rgba(255, 255, 255, 0.9)
+                                   ),
+                            url('../src/img/bg-banner.jpg');
+
+}
+
+.profile{
+    position: relative;
+    top: 20vh;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar:hover{
+    transition:all .5s ease-in-out;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ff6600;
+    -webkit-box-shadow: 0px 0px 15px 15px #8b73ec;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.divider{
+    margin: 10px auto;
+    border-top: 1px solid rgba(224, 224, 224, 0.192);
+    border-bottom: 0px;
+
+}
+
+.divider.big{
+    width:250px;
+
+}
+
+.big-white {
+
+    color: white;
+    font-size: 36px; 
+
+}
+
+/* ----- rrss ----- */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: mintcream;
+}
+
+.fa:hover {
+    transition:all .2s ease-in-out;
+/*    background: rgba(180, 180, 180, 0.9);
+    color: rgba(255, 73, 41, 0.9);
+*/
+    color: rgba(180, 180, 180, 0.9);
+    background: rgba(253, 80, 0, 0.9);
+
+}
+
+/* ---------------- */
+#d2{
+
+    background-color: linear-gradient(
+        to right bottom,
+        rgba(255, 73, 41, 0.9),
+        rgba(253, 119, 85, 0.9),
+        rgba(255, 163, 126, 0.9),
+        rgba(252, 212, 205, 0.9)     );
+
+}
+
